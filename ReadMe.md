@@ -32,3 +32,13 @@
 - [x]  MapStruct 설정 및 기본 매핑 실습
 - [x]  DTO Validation(@Valid, @NotNull 등) 적용
 - [x]  실제 프로젝트에 DTO/Mapper 패턴 적용
+
+---
+## Validation/CustomValidation 및 통합 예외처리
+### 실습과제
+
+- [x]  DTO에 Validation 설계 및 필드/클래스 검증 Custom Validation 설계
+- [x]  에러 응답이 항상 동일한 ErrorResponse 구조로 내려옴
+- [x]  PathVariable 검증 실패가 전역 처리로 잡혀 400으로 내려옴
+- [x]  404가 전역 처리로 잡혀 동일한 구조로 내려옴
+- [x]  Validation과 Custom Validation 실패가 필드단위 정보로 내려와 응답구조에 담김
