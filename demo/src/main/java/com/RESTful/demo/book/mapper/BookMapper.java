@@ -1,6 +1,9 @@
-package com.RESTful.demo.book.dto;
+package com.RESTful.demo.book.mapper;
 
 import com.RESTful.demo.book.domain.Book;
+import com.RESTful.demo.book.dto.BookCreateRequest;
+import com.RESTful.demo.book.dto.BookResponse;
+import com.RESTful.demo.book.dto.BookSummaryResponse;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,6 +2,8 @@ package com.RESTful.demo.book.service;
 
 import com.RESTful.demo.book.domain.Book;
 import com.RESTful.demo.book.dto.*;
+import com.RESTful.demo.book.mapper.BookMapper;
+import com.RESTful.demo.book.mapper.BookMapper2;
 import com.RESTful.demo.book.repository.BookRepository;
 import com.RESTful.demo.global.exception.BookNotFoundException;
 import com.RESTful.demo.global.exception.DuplicateIsbnException;
@@ -16,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class BookServiceImpl implements BookService {
 
     private final BookRepository bookRepository;
+//    private final BookMapper2  bookMapper2;
 
     @Override
     @Transactional

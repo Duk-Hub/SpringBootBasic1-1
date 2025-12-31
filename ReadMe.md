@@ -22,3 +22,13 @@
 - [x]  **트랜잭션 및 예외 처리:** Service 계층에 @Transactional이 적절히 적용되어 있고, 전역 예외 처리(@ControllerAdvice)로 일관된 에러 응답을 제공하는가?
 - [x]  **DTO와 Entity 분리:** Controller와 Service 간에는 DTO를 사용하고, Entity는 영속성 계층에만 사용하며, Mapper를 통해 명확히 변환하는가?
 - [x]  **테스트 커버리지 확보:** 각 계층별로 적절한 테스트(@WebMvcTest, @ExtendWith, @DataJpaTest)를 구현하고, 통합 테스트로 전체 플로우를 검증했는가?
+
+---
+## DTO와 Mapper 설계
+### 실습과제
+
+- [x]  DTO와 Entity의 차이점 이해 및 분리 설계 실습
+- [x]  수동 Mapper 클래스 제작
+- [x]  MapStruct 설정 및 기본 매핑 실습
+- [x]  DTO Validation(@Valid, @NotNull 등) 적용
+- [x]  실제 프로젝트에 DTO/Mapper 패턴 적용
