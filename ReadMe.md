@@ -42,3 +42,13 @@
 - [x]  PathVariable 검증 실패가 전역 처리로 잡혀 400으로 내려옴
 - [x]  404가 전역 처리로 잡혀 동일한 구조로 내려옴
 - [x]  Validation과 Custom Validation 실패가 필드단위 정보로 내려와 응답구조에 담김
+
+---
+## 페이징/정렬/검색
+### 실습과제
+
+- [x]  Querydsl 사용한 다중조건 검색/ 정렬 구현
+- [x]  클라이언트가 1-based인 경우 내부에서 0-based화, 응답은 1-based
+- [x]  정렬 기준에 tie-breaker 강제추가
+- [x]  Querydsl에 넘겨줄 pageable 정규화
+- [x]  Page metadata가 포함된 응답DTO
